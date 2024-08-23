@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondNumberEditText"
+        android:layout_marginTop="278dp"
+        android:onClick="mulNumbers"
+        android:text="Mul Numbers" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondNumberEditText"
+        android:layout_marginTop="344dp"
+        android:onClick="divNumbers"
+        android:text="Div Numbers" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondNumberEditText"
+        android:layout_marginTop="96dp"
+        android:onClick="subNumbers"
+        android:text="Sub Numbers" />
+
+    <EditText
+        android:id="@+id/firstNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the first number"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/secondNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the second number"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/firstNumberEditText"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Numbers"
+        android:layout_below="@id/secondNumberEditText"
+        android:onClick="addNumbers"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addButton"
+        android:layout_marginTop="148dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>
