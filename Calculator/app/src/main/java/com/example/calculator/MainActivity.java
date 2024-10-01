@@ -2,11 +2,7 @@ package com.example.calculator;
 
 import android.os.Bundle;
 import android.view.View;
-
-
 import androidx.appcompat.app.AppCompatActivity;
-
-
 import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
